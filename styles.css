@@ -1,17 +1,24 @@
 @font-face {
     font-family: SofiaSans;
-    src:url ('./fonts/SofiaSans.ttf');
+    src: url("./fonts/SofiaSansCondensed-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: InstrumentSans;
+    src: url("./fonts/InstrumentSans.ttf");
 }
 
 h1 {
     font-family: SofiaSans;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
+    font-family: InstrumentSans;
 }
 
 #navbar {
