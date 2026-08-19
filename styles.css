@@ -1,0 +1,22 @@
+@font-face {
+    font-family: SofiaSans;
+    src:url ('./fonts/SofiaSans.ttf');
+}
+
+h1 {
+    font-family: SofiaSans;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
