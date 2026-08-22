@@ -1,3 +1,5 @@
+/* Custom Fonts */
+
 @font-face {
     font-family: SofiaSans;
     src: url("./fonts/SofiaSansCondensed-VariableFont_wght.ttf");
@@ -6,6 +8,11 @@
 @font-face {
     font-family: InstrumentSans;
     src: url("./fonts/InstrumentSans.ttf");
+}
+
+@font-face {
+    font-family: TiroDevanagariSanskrit;
+    src: url("./fonts/TiroDevanagariSanskrit-Regular.ttf");
 }
 
 h1 {
@@ -25,5 +32,14 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 20px 0 20px;
+}
 
+h2 {
+    text-decoration: underline;
+    font-family: TiroDevanagariSanskrit;
+}
+
+p {
+    font-family: InstrumentSans;
 }
