@@ -35,11 +35,66 @@ nav ul {
     margin: 0 20px 0 20px;
 }
 
+h1:hover,
+nav:hover {
+    cursor: pointer;
+}
+
 h2 {
     text-decoration: underline;
     font-family: TiroDevanagariSanskrit;
+    font-size: 28px;
 }
 
 p {
     font-family: InstrumentSans;
+    max-width: 400px;
+    text-align: center;
+}
+
+#introduction-text {
+    font-family: TiroDevanagariSanskrit;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+#my-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid black;
+    object-fit: cover;
+    object-position: center;
+}
+
+#my-info {
+    display: flex;
+    gap: 8%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#intro-text-section {
+    text-align: center;
+}
+
+#buttons-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+button {
+    font-size: 18px;
+    font-family: InstrumentSans;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #FFF2C4;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
 }
