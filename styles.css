@@ -12,7 +12,14 @@
 
 @font-face {
     font-family: TiroDevanagariSanskrit;
+    src: url("./fonts/TiroDevanagariSanskrit-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TiroDevanagariSanskrit;
     src: url("./fonts/TiroDevanagariSanskrit-Regular.ttf");
+    font-style: normal;
 }
 
 @font-face {
@@ -60,14 +67,18 @@ nav:hover {
 h3 {
     text-decoration: underline;
     font-family: TiroDevanagariSanskrit;
+    font-style: normal;
     font-size: 30px;
 }
 
 p {
     font-family: InstrumentSans;
-    max-width: 400px;
     text-align: center;
     font-size: 18px;
+}
+
+#about-me-text {
+    max-width: 400px;
 }
 
 #introduction-text {
@@ -117,4 +128,19 @@ button {
 button:hover {
     cursor: pointer;
     transform: scale(1.09);
+}
+
+#get-started-text {
+    margin-top: 8%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#section-header {
+    text-align: center;
+    font-family: TiroDevanagariSanskrit;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 10%;
 }
