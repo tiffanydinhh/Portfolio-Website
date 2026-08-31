@@ -131,9 +131,10 @@ button:hover {
 }
 
 #get-started-text {
-    margin-top: 8%;
+    margin-top: 12%;
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 18%;
 }
 
 #section-header {
