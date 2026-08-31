@@ -27,6 +27,12 @@
     src: url("./fonts/SeaweedScript-Regular.ttf");
 }
 
+@font-face {
+    font-family: SofiaSansExtraCondensed;
+    src: url("./fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf ");
+}
+
+
 h1 {
     font-family: SofiaSans;
     font-size: 30px;
@@ -144,4 +150,14 @@ button:hover {
     font-weight: 500;
     font-size: 35px;
     margin-top: 10%;
+}
+
+#projectA {
+    font-size: 46px;
+    font-family: SofiaSansExtraCondensed;
+    font-weight: 400;
+}
+
+#line {
+    
 }
