@@ -32,6 +32,19 @@
     src: url("./fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf ");
 }
 
+@font-face {
+    font-family: InriaSans;
+    src: url("./fonts/InriaSans-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: InriaSans;
+    src: url("./fonts/InriaSans-BoldItalic.ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 h1 {
     font-family: SofiaSans;
@@ -77,13 +90,9 @@ h3 {
     font-size: 30px;
 }
 
-p {
-    font-family: InstrumentSans;
-    text-align: center;
-    font-size: 18px;
-}
-
 #about-me-text {
+    font-family: InstrumentSans;
+    font-size: 18px;
     max-width: 400px;
 }
 
@@ -137,10 +146,19 @@ button:hover {
 }
 
 #get-started-text {
+    font-family: InstrumentSans;
+    font-size: 18px;
     margin-top: 12%;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 18%;
+    text-align: center;
+}
+
+#projects-intro-text {
+    font-family: InstrumentSans;
+    font-size: 18px;
+    text-align: center;
 }
 
 #section-header-container {
@@ -162,7 +180,7 @@ button:hover {
 }
 
 #project1-text {
-    font-size: 46px;
+    font-size: 48px;
     font-family: SofiaSansExtraCondensed;
     font-weight: 400;
 }
@@ -180,4 +198,12 @@ button:hover {
     align-items: center;
     margin-bottom: 25px;
     margin-left: 15px;
+}
+
+#project-description {
+    text-align: left;
+    font-family: InriaSans;
+    font-style: italic;
+    font-size: 20px;
+    max-width: 500px;
 }
