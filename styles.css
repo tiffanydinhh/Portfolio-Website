@@ -207,3 +207,8 @@ button:hover {
     font-size: 20px;
     max-width: 500px;
 }
+
+.square {
+    background-color: gray;
+    max-width: 100px;
+}
