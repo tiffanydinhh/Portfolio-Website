@@ -155,19 +155,19 @@ button:hover {
     text-align: center;
 }
 
-#projects-intro-text {
+.section-intro-text {
     font-family: InstrumentSans;
     font-size: 18px;
     text-align: center;
 }
 
-#section-header-container {
+.section-header-container {
     display: inline-flex;
     align-items: center;
     gap: 15px;
 }
 
-#section-header-text {
+.section-header-text {
     text-align: center;
     font-family: TiroDevanagariSanskrit;
     font-style: italic;
@@ -185,13 +185,13 @@ button:hover {
     font-weight: 400;
 }
 
-#project-title {
+#project1-title {
     display: flex;
     margin: 100px 30px 0 30px;
 }
 
 /* add horizontal line after project title */
-#project-title::after {
+#project1-title::after {
     content: "";
     flex: 1;
     border-bottom: 2px solid black;
@@ -200,7 +200,7 @@ button:hover {
     margin-left: 15px;
 }
 
-#project-description {
+.project-description1 {
     text-align: left;
     font-family: InriaSans;
     font-style: italic;
@@ -208,7 +208,69 @@ button:hover {
     max-width: 500px;
 }
 
+.project-description2 {
+    margin-top: 10%;
+    font-family: InriaSans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .square {
-    background-color: gray;
-    max-width: 100px;
+    background-color: #D9D9D9;
+    border-radius: 7px;
+    border: 2px solid black;
+    box-shadow: 20px 20px #FFF2C4;
+    width: 370px;
+    height: 370px;
+}
+
+.project-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    margin: 10% 0 10% 0;
+}
+
+#project2-text {
+    font-size: 48px;
+    font-family: SofiaSansExtraCondensed;
+    font-weight: 400;
+}
+
+#project2-title {
+    display: flex;
+    margin: 100px 30px 0 30px;
+}
+
+/* add horizontal line before project title */
+#project2-title::before {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid black;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+#project3-text {
+    font-size: 48px;
+    font-family: SofiaSansExtraCondensed;
+    font-weight: 400;
+}
+
+#project3-title {
+    display: flex;
+    margin: 100px 30px 0 30px;
+}
+
+/* add horizontal line before project title */
+#project3-title::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid black;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 15px;
 }
