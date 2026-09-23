@@ -45,6 +45,19 @@
     font-weight: bold;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
 
 h1 {
     font-family: SofiaSans;
@@ -109,6 +122,7 @@ h3 {
     border: 2px solid black;
     object-fit: cover;
     object-position: center;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.468);
 }
 
 #my-info {
@@ -273,4 +287,45 @@ button:hover {
     align-items: center;
     margin-bottom: 25px;
     margin-left: 15px;
+}
+
+/* Designs Sections */
+
+.design-image {
+    max-width: 280px;
+    height: auto;
+}
+
+.design-number {
+    font-family: InriaSans;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.designs-row {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.design-image {
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.468);
+}
+
+/* Footer */
+
+footer {
+    background-color: #FFF2C4;
+    text-align: center;
+    padding: 10px;
+    font-family: InstrumentSans;
+    font-size: 17px;
+}
+
+#footer-container {
+    display: inline-flex;
+    justify-content: center;
+    gap: 50%;
 }

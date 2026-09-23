@@ -6,26 +6,31 @@
        <link rel="stylesheet" href="styles.css">
 </head>
 
-
 <body>
-
 
    <div id="navbar">
        <h1>Tiffany Dinh</h1>
            <nav>
                <ul>
+                <a href="#projects-header">
                    <li>Work</li>
+                </a>
+
+                <a href="https://github.com/tiffanydinhh">
+                    <li>GitHub</li>
+                </a>
+                
+                <a href="mailto:tiffanydinhh@gmail.com" id="contact-button">
                    <li>Contact</li>
+                </a>
                </ul>
            </nav>
    </div>
-
 
    <h2 id="welcome-text">- Welcome! -</h2>
 
 
    <div id="my-info">
-
 
        <img src="./images/my-picture.png" id="my-picture" alt="Image of Developer">
       
@@ -33,17 +38,21 @@
            <p id="introduction-text">Hello there, my name is </p>  
            <h3>Tiffany Dinh</h3>
            <p id="about-me-text">I am currently a third-year college student with a passion in <b>web development</b>, <b>UI/UX</b>, and <b>graphic design</b>.
-               You can explore this website to learn more about me.</p>
-
+               You can explore this website to learn more about me.
+            </p>
 
            <div id="buttons-section">
-               <button id="projects-button">Projects</button>
-               <button id="designs-button">Designs</button>
+
+                <a href="#projects-header">
+                    <button id="projects-button">Projects</button>
+                </a>
+               
+                <a href="#graphic-design-header">
+                    <button id="designs-button">Designs</button>
+                </a>
            </div>
 
-
        </div>
-
 
    </div>
 
@@ -51,7 +60,7 @@
    <p id="get-started-text"> ↓ Get started below ↓ </p>
 
 
-   <div class="parent-container">
+   <div class="parent-container" id="projects-header">
        <div class="section-header-container">
            <img src="./images/sparkle.svg">
            <h3 class="section-header-text">Projects.</h3>
@@ -64,11 +73,9 @@
 
        <!-- Project 1 -->
 
-
    <div id="project1-title">
        <span id="project1-text">01. MindSpace</span>
    </div>
-
 
    <div class="project-section">
        <div class="project-description">
@@ -77,41 +84,32 @@
                Provides them with a space to relax their minds through journaling, task organization, and activity suggestions.
            </p>
 
-
            <ul class="project-description2">
                <li>React.js, HTML, CSS, JavaScript</li>
                <li>VS Code, Figma</li>
            </ul>
 
-
-       </div>
-
+        </div>
 
        <div class="square"></div>
-
 
    </div>
 
 
    <!-- Project 2 -->
 
-
    <div id="project2-title">
        <span id="project2-text">02. The EN-Chive</span>
    </div>
 
-
    <div class="project-section">
 
-
        <div class="square"></div>
-
 
        <div class="project-description">
            <p class="project-description1">
                The EN-Chive showcases ENHYPEN’s discography that allows users to learn more about the group’s songs by interact with various elements.
            </p>
-
 
            <ul class="project-description2">
                <li>React.js, HTML, CSS, JavaScript</li>
@@ -127,7 +125,6 @@
 
    <!-- Project 3 -->
 
-
    <div id="project3-title">
        <span id="project3-text">03. BYTES</span>
    </div>
@@ -135,42 +132,95 @@
 
    <div class="project-section">
 
-
        <div class="project-description">
            <p class="project-description1">
                BYTES was developed by a team of 7 students at CPP and is a fictional tech-inspired cat café website.
            </p>
-
 
            <ul class="project-description2">
                <li>React.js, HTML, CSS, JavaScript</li>
                <li>VS Code, Figma</li>
            </ul>
 
-
        </div>
 
-
        <div class="square"></div>
-
 
    </div>
 
 
    <!-- Graphic Design Section -->
    
-   <div class="parent-container">
+   <div class="parent-container" id="graphic-design-header">
        <div class="section-header-container">
            <img src="./images/sparkle.svg">
            <h3 class="section-header-text">Designs.</h3>
        </div>
    </div>
 
-
    <p class="section-intro-text">A collection of graphic designs I have created from 2026 to now.</p>
 
+   <!-- Designs row 1 -->
 
+   <div class="designs-row">
+    
+    <div id="design1-section">
+        <p class="design-number">01.</p>
+        <img src="./images/design1.png" class="design-image" src="design 1">
+    </div>
 
+    <div id="design2-section">
+        <p class="design-number">02.</p>
+        <img src="./images/design2.png" class="design-image" src="design 2">
+    </div>
+
+    <div id="design3-section">
+        <p class="design-number">03.</p>
+        <img src="./images/design3.png" class="design-image" src="design 3">
+    </div>
+
+   </div>
+
+   <!-- Designs row 2 -->
+
+   <div class="designs-row">
+    
+        <div id="design1-section">
+            <p class="design-number">04.</p>
+            <img src="./images/design4.png" class="design-image" src="design 4">
+        </div>
+
+        <div id="design2-section">
+            <p class="design-number">05.</p>
+            <img src="./images/design5.png" class="design-image" src="design 5">
+        </div>
+
+        <div id="design3-section">
+            <p class="design-number">06.</p>
+            <img src="./images/design6.png" class="design-image" src="design 6">
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+   <footer>
+        <div id="footer-container">
+            <a href="#projects-header">
+                <p>Work</p>
+            </a>
+
+            <a href="https://github.com/tiffanydinhh">
+                    <p>GitHub</p>
+                </a>
+
+            <a href="mailto:tiffanydinhh@gmail.com" id="contact-button">
+                <p>Contact</p>
+            </a>
+        </div>
+
+        <p>©2026</p>
+   </footer>
 
 </body>
 
