@@ -14,6 +14,9 @@ This project was developed to give me a space to showcase my projects and streng
 * **Contact:** Clickable link in the nav bar that allows users to reach me through email.
 * **Github:** Clickable link in the nav bar that allows users to visit my GitHub.
 
+## Live Site
+https://tiffanydinhh.github.io/portfolio/ 
+
 ## Tech Stack
 **Frontend:** HTML, CSS \
 **Fonts:** \
