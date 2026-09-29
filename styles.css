@@ -162,15 +162,15 @@ button:hover {
 #get-started-text {
     font-family: InstrumentSans;
     font-size: 18px;
-    margin-top: 12%;
+    margin-top: 10%;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 18%;
+    margin-bottom: 8%;
     text-align: center;
 }
 
 .section-intro-text {
-    margin-bottom: 15%;
+    margin-bottom: 8%;
     font-family: InstrumentSans;
     font-size: 18px;
     text-align: center;
@@ -236,7 +236,7 @@ button:hover {
     border-radius: 7px;
     border: 2px solid black;
     box-shadow: 20px 20px #FFF2C4;
-    width: 550px;
+    width: 530px;
     height: auto;
 }
 
@@ -250,8 +250,8 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15%;
-    margin: 10% 0 10% 0;
+    gap: 10%;
+    margin: 7% 0 7% 0;
 }
 
 #project2-text {
@@ -296,6 +296,20 @@ button:hover {
     margin-left: 15px;
 }
 
+#project4-title {
+    display: flex;
+    margin: 100px 30px 0 30px;
+}
+
+#project4-title::before {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid black;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
 /* Designs Sections */
 
 .design-image {
@@ -311,10 +325,10 @@ button:hover {
 
 .designs-row {
     display: flex;
-    gap: 10%;
+    gap: 8%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .design-image {
@@ -329,7 +343,7 @@ footer {
     padding: 10px;
     font-family: InstrumentSans;
     font-size: 17px;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 #footer-container {
