@@ -180,6 +180,7 @@ button:hover {
     display: inline-flex;
     align-items: center;
     gap: 15px;
+    margin-top: 5%;
 }
 
 .section-header-text {
@@ -194,15 +195,18 @@ button:hover {
     text-align: center;
 }
 
-#project1-text {
-    font-size: 48px;
+#project1-text,
+#project2-text,
+#project3-text,
+#project4-text {
+    font-size: 45px;
     font-family: SofiaSansExtraCondensed;
     font-weight: 400;
 }
 
 #project1-title {
     display: flex;
-    margin: 100px 30px 0 30px;
+    margin: 100px 6% 0 6%;
 }
 
 /* add horizontal line after project title */
@@ -219,7 +223,7 @@ button:hover {
     text-align: left;
     font-family: InriaSans;
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     max-width: 500px;
 }
 
@@ -236,7 +240,7 @@ button:hover {
     border-radius: 7px;
     border: 2px solid black;
     box-shadow: 20px 20px #FFF2C4;
-    width: 530px;
+    width: 500px;
     height: auto;
 }
 
@@ -250,19 +254,13 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10%;
+    gap: 8%;
     margin: 7% 0 7% 0;
-}
-
-#project2-text {
-    font-size: 48px;
-    font-family: SofiaSansExtraCondensed;
-    font-weight: 400;
 }
 
 #project2-title {
     display: flex;
-    margin: 100px 30px 0 30px;
+    margin: 100px 6% 0 6%;
 }
 
 /* add horizontal line before project title */
@@ -275,15 +273,9 @@ button:hover {
     margin-left: 15px;
 }
 
-#project3-text {
-    font-size: 48px;
-    font-family: SofiaSansExtraCondensed;
-    font-weight: 400;
-}
-
 #project3-title {
     display: flex;
-    margin: 100px 30px 0 30px;
+    margin: 100px 6% 0 6%;
 }
 
 /* add horizontal line before project title */
@@ -298,7 +290,7 @@ button:hover {
 
 #project4-title {
     display: flex;
-    margin: 100px 30px 0 30px;
+    margin: 100px 6% 0 6%;
 }
 
 #project4-title::before {
